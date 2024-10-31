@@ -145,9 +145,10 @@ curl --request GET \
   --output 'Nessus-10.8.3-ubuntu1604_amd64.deb' && dpkg -i Nessus-10.8.3-debian6_amd64.deb
 ```
 </h3>
-<h3>• LAB - EHP </h3> 
+<!-- <h3>• LAB - EHP </h3>  -->
 
 <h3>
-https://mega.nz/file/saMBmJ6S#R3vl7of5nDAz5Ko9TzRq8756kT5DCgwlpeNAEfrEB4o
-</h3>
+<!-- https://mega.nz/file/saMBmJ6S#R3vl7of5nDAz5Ko9TzRq8756kT5DCgwlpeNAEfrEB4o -->
+</h3> 
+
 

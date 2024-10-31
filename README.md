@@ -43,13 +43,13 @@
 <h3>•  Command's </h3> 
 <h3>
 
-```markdown
+```
 sudo apt update && apt upgrade && apt full-upgrade -y
 ```
 </h3>
 <h3>
 
-```markdown
+```
 reboot
 ```
 </h3>
@@ -61,14 +61,14 @@ reboot
 
 <h3>
 
-```markdown
+``` 
 sudo apt update && apt upgrade && apt full-upgrade -y
 ```
 </h3>
 
 <h3>
 
-```markdown
+``` 
 sudo apt install openssh-client && systemctl enable ssh.service && systemctl status ssh.service
 ```
 </h3>
@@ -78,7 +78,7 @@ sudo apt install openssh-client && systemctl enable ssh.service && systemctl sta
 
 <h3>
 
-```markdown
+``` 
 sudo apt install -y docker.io && sudo systemctl enable docker --now && apt install docker-compose
 ```
 </h3>
@@ -89,7 +89,7 @@ sudo apt install -y docker.io && sudo systemctl enable docker --now && apt insta
 
 <h3>
 
-```markdown
+``` 
 wget https://go.dev/dl/go1.23.2.src.tar.gz && rm -rf /usr/local/go && tar -C /usr/local -xzf go1.23.2.linux-amd64.tar.gz && export PATH=$PATH:/usr/local/go/bin && go version
 ```
 </h3>
@@ -97,7 +97,7 @@ wget https://go.dev/dl/go1.23.2.src.tar.gz && rm -rf /usr/local/go && tar -C /us
 
 <h3>
 
-```markdown
+``` 
 sudo apt install sublist3r && sublist3r -h
 ```
 </h3>
@@ -106,7 +106,7 @@ sudo apt install sublist3r && sublist3r -h
 
 <h3>
 
-```markdown
+``` 
 go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
 ```
 </h3>
@@ -114,7 +114,7 @@ go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
 
 <h3>
 
-```markdown
+``` 
 go install github.com/projectdiscovery/katana/cmd/katana@latest
 
 ```
@@ -124,7 +124,7 @@ go install github.com/projectdiscovery/katana/cmd/katana@latest
 
 <h3>
 
-```markdown
+``` 
 git clone https://github.com/sullo/nikto
 cd nikto/program
 chmod +x *
@@ -139,7 +139,7 @@ perl nikto.pl -h http://www.example.com
 
 <h3>
 
-```markdown
+``` 
 curl --request GET \
   --url 'https://www.tenable.com/downloads/api/v2/pages/nessus/files/Nessus-10.8.3-ubuntu1604_amd64.deb' \
   --output 'Nessus-10.8.3-ubuntu1604_amd64.deb' && dpkg -i Nessus-10.8.3-debian6_amd64.deb

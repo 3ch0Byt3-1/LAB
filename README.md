@@ -62,13 +62,6 @@ reboot
 <h3>
 
 ``` 
-sudo apt update && apt upgrade && apt full-upgrade -y
-```
-</h3>
-
-<h3>
-
-``` 
 sudo apt install openssh-client && systemctl enable ssh.service && systemctl status ssh.service
 ```
 </h3>

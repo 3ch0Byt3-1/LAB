@@ -83,7 +83,7 @@ sudo apt install -y docker.io && sudo systemctl enable docker --now && apt insta
 <h3>
 
 ``` 
-wget https://go.dev/dl/go1.23.2.src.tar.gz && rm -rf /usr/local/go && tar -C /usr/local -xzf go1.23.2.linux-amd64.tar.gz && export PATH=$PATH:/usr/local/go/bin && go version
+wget https://go.dev/dl/go1.23.2.src.tar.gz && rm -rf /usr/local/go && tar -C /usr/local -xzf go1.23.2.src.tar.gz && export PATH=$PATH:/usr/local/go/bin && go version
 ```
 </h3>
 <h3>• Sublist3r </h3> 
@@ -135,7 +135,7 @@ perl nikto.pl -h http://www.example.com
 ``` 
 curl --request GET \
   --url 'https://www.tenable.com/downloads/api/v2/pages/nessus/files/Nessus-10.8.3-ubuntu1604_amd64.deb' \
-  --output 'Nessus-10.8.3-ubuntu1604_amd64.deb' && dpkg -i Nessus-10.8.3-debian6_amd64.deb
+  --output 'Nessus-10.8.3-ubuntu1604_amd64.deb' && dpkg -i Nessus-10.8.3-ubuntu1604_amd64.deb
 ```
 </h3>
 <!-- <h3>• LAB - EHP </h3>  -->
